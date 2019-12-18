@@ -15,7 +15,7 @@ class Student
 
   def self.create_table
     sql = <<-SQL
-    INSERT INTO students (name, grade)
+    INSERT INTO students(name, grade)
       VALUES (?, ?)
     SQL
 
